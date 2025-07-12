@@ -1,0 +1,19 @@
+.LeaksGrid {
+    max-width: 1000px;
+}
+
+.LeaksGrid img {
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.LeaksPgContent {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    justify-content: center;
+    display: flex;
+}
+
+@media screen and (max-width: 450px) {
+    
+}

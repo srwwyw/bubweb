@@ -1,0 +1,158 @@
+.LeaksImg {
+    max-width: 1980px;
+}
+
+.LeaksAlbumsTitle {
+    width: 100%;
+    overflow: hidden;
+}
+
+.Title_AlbumsCover {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 128px;
+    justify-content: space-between;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 429px;
+}
+
+.Title_AlbumsCover h6 {
+    font-family: "Space Grotesk", sans-serif;
+    color: #757575;
+    font-weight: bold;
+    font-size: 128px;
+    margin: 0%;
+}
+
+.LeaksTitleBg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 71px;
+    left: 0;
+    width: 525px;
+}
+
+.LeaksTitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    z-index: 2;
+}
+
+.LeaksAlbumsSonglist {
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.LeaksAlbumsSonglist a {
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    color: #757575;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 20px;
+}
+.LeaksAlbumsSonglist ul {
+    padding-inline-start: 50px;
+}
+.LeaksAlbumsSonglist li {
+    color: #757575;
+}
+
+.AlbumsCover {
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 26px;
+}
+
+@media screen and (max-width: 450px) {
+    .LeaksImg {
+    max-width: 1980px;
+}
+
+.Title_AlbumsCover {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 57px;
+    justify-content: space-between;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 213px;
+}
+
+.Title_AlbumsCover h6 {
+    font-family: "Space Grotesk", sans-serif;
+    color: #757575;
+    font-weight: bold;
+    font-size: 57px;
+    margin: 0%;
+    left: -19px;
+    top: -17px;
+}
+
+.LeaksTitleBg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 121px;
+    left: -32px;
+    width: 294px;
+}
+
+.LeaksTitle {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    z-index: 2;
+}
+
+.LeaksAlbumsSonglist {
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.LeaksAlbumsSonglist a {
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    color: #757575;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 17px;
+}
+.LeaksAlbumsSonglist ul {
+    padding-inline-start: 19px;
+}
+.LeaksAlbumsSonglist li {
+    color: #757575;
+}
+
+.AlbumsCover {
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 26px;
+}
+}

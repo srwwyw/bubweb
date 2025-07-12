@@ -1,0 +1,145 @@
+.Title_AlbumsCover {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 128px;
+    justify-content: space-between;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 398px;
+}
+
+.Title_AlbumsCover h6 {
+    font-family: "Space Grotesk", sans-serif;
+    color: #757575;
+    font-weight: bold;
+    font-size: 128px;
+    margin: 0%;
+}
+
+.TitleBg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 71px;
+    left: 0;
+    width: 525px;
+}
+
+.Title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    z-index: 2;
+    top: 30px;
+}
+
+.AlbumsSonglist {
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.AlbumsSonglist a {
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    color: #757575;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 20px;
+}
+.AlbumsSonglist ul {
+    padding-inline-start: 50px;
+}
+.AlbumsSonglist li {
+    color: #757575;
+}
+
+.AlbumsCover {
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 52px;
+}
+
+@media screen and (max-width: 450px) {
+    .Title_AlbumsCover {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    justify-content: space-between;
+    display: flex;
+    border-bottom-style: solid;
+    border-bottom-color: #d9d9d9;
+    border-bottom-width: 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 267px;
+}
+
+.Title_AlbumsCover h6 {
+    font-family: "Space Grotesk", sans-serif;
+    color: #757575;
+    font-weight: bold;
+    font-size: 50px;
+    margin: 0%;
+}
+
+.TitleBg {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 121px;
+    left: -98px;
+    width: 353px;
+}
+
+.Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    z-index: 2;
+}
+
+.AlbumsSonglist {
+    height: auto;
+    display: flex;
+    align-items: flex-end;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.AlbumsSonglist a {
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+    color: #757575;
+    font-weight: lighter;
+    text-align: left;
+    font-size: 17px;
+}
+.AlbumsSonglist ul {
+    padding-inline-start: 50px;
+}
+.AlbumsSonglist li {
+    color: #757575;
+}
+
+.AlbumsCover {
+    position: absolute;
+    padding-right: 30px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 52px;
+    left: 270px;
+}
+}

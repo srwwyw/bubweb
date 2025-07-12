@@ -1,0 +1,154 @@
+.AlbumsContent {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    width: 948px;
+
+}
+
+.AlbumsContentSection {
+    justify-content: center;
+    display: flex;
+}
+
+.AlbumsContent a {
+    margin: 0%;
+    padding: 0%;
+    height: 0%;
+    width: 0%;
+    display: contents;
+}
+
+.AlbumsContent img {
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.AlbumsContent img :last-child {
+    margin-right: 27px;
+}
+
+.Albums_Grid_BottomLine {
+    border-bottom-width: 10px;
+    border-bottom-color: #b3b3b3;
+    border-bottom-style: solid;
+    padding-bottom: 37px;
+}
+
+.Albums_Grid_RightBottomLine {
+    border-bottom-width: 10px;
+    border-bottom-color: #b3b3b3;
+    border-bottom-style: solid;
+    border-right-width: 12px;
+    border-right-color: #b3b3b3;
+    border-right-style: solid;
+    padding-bottom: 37px;
+}
+
+.Albums_Grid_LeftBottomLine {
+    border-bottom-width: 10px;
+    border-bottom-color: #b3b3b3;
+    border-bottom-style: solid;
+    border-left-width: 12px;
+    border-left-color: #b3b3b3;
+    border-left-style: solid;
+    padding-bottom: 37px;
+}
+
+.Albums_Grid_LeftBottomLine_ArrowHead {
+    border-bottom-width: 10px;
+    border-bottom-color: #b3b3b3;
+    border-bottom-style: solid;
+    border-left-width: 12px;
+    border-left-color: #b3b3b3;
+    border-left-style: solid;
+    padding-bottom: 37px;
+    position: relative;
+}
+
+.ArrowHead {
+    position: absolute;
+    bottom: -18px;
+    right: -12px;
+    height: auto;
+    pointer-events: none;
+    width: 24px;
+}
+
+@media screen and (max-width: 450px) {
+    .AlbumsContent {
+    padding-top: 0%;
+    padding-bottom: 35px;
+    width: 948px;
+
+}
+
+.AlbumsContentSection {
+    justify-content: center;
+    display: flex;
+}
+
+.AlbumsContent a {
+    margin: 0%;
+    padding: 0%;
+    height: 0%;
+    width: 0%;
+    display: contents;
+}
+
+.AlbumsContent img {
+    margin-left: 15px;
+    margin-top: 40px;
+}
+
+.AlbumsContent img :last-child {
+    margin-right: 27px;
+}
+
+.Albums_Grid_BottomLine {
+    border-bottom-width: 7px;
+    border-bottom-color: #b3b3b3;
+    border-bottom-style: solid;
+    padding-bottom: 15px;
+}
+
+.Albums_Grid_RightBottomLine {
+    border-bottom-width: 7px;
+    border-bottom-color: #b3b3b3;
+    border-bottom-style: solid;
+    border-right-width: 7px;
+    border-right-color: #b3b3b3;
+    border-right-style: solid;
+    padding-bottom: 15px;
+}
+
+.Albums_Grid_LeftBottomLine {
+    border-bottom-width: 7px;
+    border-bottom-color: #b3b3b3;
+    border-bottom-style: solid;
+    border-left-width: 7px;
+    border-left-color: #b3b3b3;
+    border-left-style: solid;
+    padding-bottom: 15px;
+}
+
+.Albums_Grid_LeftBottomLine_ArrowHead {
+    border-bottom-width: 7px;
+    border-bottom-color: #b3b3b3;
+    border-bottom-style: solid;
+    border-left-width: 7px;
+    border-left-color: #b3b3b3;
+    border-left-style: solid;
+    padding-bottom: 15px;
+    position: relative;
+    width: 350px;
+}
+
+.ArrowHead {
+    position: absolute;
+    bottom: -18px;
+    right: -12px;
+    height: auto;
+    pointer-events: none;
+    width: 24px;
+}
+}

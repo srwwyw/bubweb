@@ -1,0 +1,128 @@
+.HomePgTitle {
+    padding-left: 17px;
+    border-bottom: #d9d9d9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    max-height: 359px;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.HomePgTitle h1 {
+    color: #757575;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 128px;
+    justify-items: flex-start;
+    align-items: center;
+    margin: 0%;
+}
+
+.HomePgTitle h3 {
+    color: #757575;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    justify-items: flex-start;
+    align-items: center;
+    margin: 0%;
+}
+
+.HomePgTitle h4 {
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    justify-items: flex-start;
+    align-items: center;
+    margin: 0%;
+    margin-bottom: 25px;
+}
+
+.HomePgContent {
+    justify-items: center;
+    padding-bottom: 75px;
+}
+
+#HomePgImg {
+    width: 472px;
+    padding-top: 75px;
+}
+
+#HomePgBarcodeTxt h3{
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 32px;
+    color: #757575;
+    max-width: 1149px;
+    margin: 0%;
+    margin-top: 15px;
+    line-height: 130%;
+    text-align: left;
+}
+
+@media screen and (max-width: 450px) {
+    .HomePgTitle {
+    padding-left: 13px;
+    border-bottom: #d9d9d9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    max-height: 359px;
+    overflow: hidden;
+}
+
+.HomePgTitle h1 {
+    color: #757575;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 56px;
+    justify-items: flex-start;
+    align-items: center;
+    margin: 0%;
+}
+
+.HomePgTitle h3 {
+    color: #757575;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: bold;
+    font-size: 42px;
+    justify-items: flex-start;
+    align-items: center;
+    margin: 0%;
+}
+
+.HomePgTitle h4 {
+    color: #B3B3B3;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    justify-items: flex-start;
+    align-items: center;
+    margin: 0%;
+    margin-bottom: 16px;
+}
+
+.HomePgContent {
+    justify-items: center;
+    padding-bottom: 75px;
+}
+
+#HomePgImg {
+    width: 345px;
+    padding-top: 75px;
+}
+
+#HomePgBarcodeTxt h3{
+    font-family: "Libre Barcode 128 Text", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 39px;
+    color: #757575;
+    max-width: 388px;
+    margin: 0%;
+    margin-top: 15px;
+    line-height: 130%;
+    text-align: left;
+}
+}

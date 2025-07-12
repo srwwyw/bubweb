@@ -1,0 +1,223 @@
+body {
+    margin: 0%;
+    background-color: black;
+}
+
+.SiteBorder {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: black;
+}
+.PageBackground {
+    background-color: #181414;
+}
+
+.header {
+    max-height: fit-content;
+    justify-content: center;
+    background-color: #282424;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: #d9d9d9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    z-index: 3;
+}
+
+.header__button_left_no-button-background {
+    padding-left: 14px;
+    background-color: #282424;
+    color: #B3B3B3;
+    border-style: none;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "Space Mono", monospace;
+    justify-content: flex-end;
+    display: inline-flex;
+    margin-top: 13px;
+    margin-bottom: 13px;
+}
+
+.header__button_left_no-button-background:last-child {
+    padding-right: 5px;
+}
+
+.Footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #282424;
+    font-family: "Space Grotesk", sans-serif;
+    line-height: 140%;
+    justify-content: space-between;
+    color: #757575;
+    align-content: center;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #d9d9d9;
+}
+.Footer :first-child {
+    text-align: left;
+    max-width: 506px;
+    font-weight: 300;
+    margin: 0%;
+    font-size: 20px;
+}
+
+.Footer :last-child {
+    text-align: right;
+    font-weight: 300;
+    margin: 0%;
+    font-size: 20px;
+}
+
+.WavyBackground-Text {
+    background-image: url(../Images/LeaksPgTitleBg.png);
+    background-size: cover;
+    height: 232px;
+    margin: 0%;
+    display: flex;
+    border-bottom: #d9d9d9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.WavyBackground-Text h6 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    color: #757575;
+    align-content: center;
+    margin: 0%;
+    padding-left: 25px;
+}
+
+.AlbumsCover {
+    max-width: 287px;
+}
+
+
+@media screen and (max-width: 450px) {
+    body {
+    margin: 0%;
+    background-color: black;
+}
+
+.SiteBorder {
+    padding-left: 0px;
+    padding-right: 0px;
+    background-color: black;
+    overflow: hidden;
+}
+.PageBackground {
+    background-color: #181414;
+}
+
+.header {
+    max-height: fit-content;
+    justify-content: center;
+    background-color: #282424;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: #d9d9d9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    z-index: 3;
+}
+
+.header__button_left_no-button-background {
+    padding-left: 46px;
+    background-color: #282424;
+    color: #B3B3B3;
+    border-style: none;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: "Space Mono", monospace;
+    justify-content: flex-end;
+    display: inline-flex;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+
+.header__button_left_no-button-background:last-child {
+    padding-right: 5px;
+}
+
+.Footer {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: #282424;
+    font-family: "Space Grotesk", sans-serif;
+    line-height: 140%;
+    justify-content: space-between;
+    color: #757575;
+    align-content: center;
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: #d9d9d9;
+}
+.Footer :first-child {
+    text-align: left;
+    max-width: 206px;
+    font-weight: 300;
+    margin: 0%;
+    font-size: 13px;
+}
+
+.Footer :last-child {
+    text-align: right;
+    font-weight: 300;
+    margin: 0%;
+    font-size: 13px;
+}
+
+.WavyBackground-Text {
+    background-image: url(../Images/LeaksPgTitleBg.png);
+    background-size: cover;
+    height: 232px;
+    margin: 0%;
+    display: flex;
+    border-bottom: #d9d9d9;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+}
+.WavyBackground-Text h6 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #757575;
+    align-content: center;
+    margin: 0%;
+    padding-left: 25px;
+}
+
+.AlbumsCover {
+    max-width: 119px;
+}
+}
+
+#kanye-album-randomizer {
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #282424;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 500px;
+  color: #757575;
+  font-family: "Space Grotesk", sans-serif;
+}
+
+#kanye-album-randomizer button {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: #757575;
+    border-style: none;
+    border-radius: 4px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

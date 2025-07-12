@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text&family=Space+Grotesk:wght@300..700&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <title>Home Page</title>
+        <link rel="stylesheet" href="../../Styles/style.css">
+        <link rel="stylesheet" href="../../Styles/AlbumsPgStyle.css">
+    </head>
+<body>
+    <div class="SiteBorder">
+        <div class="PageBackground">
+            <div class="header">
+                <div class="header__button_left">
+                    <a href="../Home.html" class="header__button_left_no-button-background">Home</a>
+                    <a href="../Leaks/Leaks.html" class="header__button_left_no-button-background">Leaks</a>
+                    <a href="./Albums.html" class="header__button_left_no-button-background">Albums</a>
+                    <a href="../Award.html" class="header__button_left_no-button-background">Awards</a>
+                </div>
+            </div>
+            <div class="WavyBackground-Text">
+                <h6>Here’s all of the Albums from The <br> GOAT, Kanye to YE</h6>
+            </div>
+            <div class="AlbumsContentSection">
+                <div class="AlbumsContent">
+                    <div>
+                        <section id="kanye-album-randomizer">
+                        <h2>🎵 Get a Random Kanye Album Recommendation</h2>
+                        <button onclick="randomAlbum()">Show Me One</button>
+                        <p id="albumResult"></p>
+                        </section>
+                    </div>
+                    <div class="Albums_Grid_BottomLine">
+                        <a href="./Albums_CollegeDropOut.html"><img src="../../Images/CollegeDropOut.png" alt="College Drop Out" class="AlbumsCover"></a>
+                        <a href="./Albums_LateRegistration.html"><img src="../../Images/LateRegistration.png" alt="Late Registration" class="AlbumsCover"></a>
+                        <a href="./Albums_Graduation.html"><img src="../../Images/Graduation.png" alt="Graduation" class="AlbumsCover"></a>
+                    </div>
+                    <div class="Albums_Grid_RightBottomLine">
+                        <a href="./Albums_808s&Heartbreak.html"><img src="../../Images/808s&Heartbreak.png" alt="808s & Heartbreak" class="AlbumsCover"></a>
+                        <a href="./Albums_MBDTF.html"><img src="../../Images/MyBeautifulDarkTwistedFantasy.png" alt="My Beautiful Dark Twisted Fantasy" class="AlbumsCover"></a>
+                        <a href="./Albums_WatchTheThrone.html"><img src="../../Images/WatchTheThrone.png" alt="Watch The Throne" class="AlbumsCover"></a>
+                    </div>
+                    <div class="Albums_Grid_LeftBottomLine">
+                        <a href="./Albums_YEEZUS.html"><img src="../../Images/Yeezus.png" alt="Yeezus" class="AlbumsCover"></a>
+                        <a href="./Albums_LifeOfPablo.html"><img src="../../Images/LifeofPablo.png" alt="Life of Pablo" class="AlbumsCover"></a>
+                        <a href="./Albums_YE.html"><img src="../../Images/YE.png" alt="YE" class="AlbumsCover"></a>
+                    </div>
+                    <div class="Albums_Grid_RightBottomLine">
+                        <a href="./Albums_Donda.html"><img src="../../Images/Donda.png" alt="Donda" class="AlbumsCover"></a>
+                        <a href="./Albums_JesusIsKing.html"><img src="../../Images/JesusIsKing.png" alt="Jesus Is King" class="AlbumsCover"></a>
+                        <a href="./Albums_KidsSeeGhost.html"><img src="../../Images/KidsSeeGhost.png" alt="Kids See Ghost" class="AlbumsCover"></a>
+                    </div>
+                    <div class="Albums_Grid_LeftBottomLine_ArrowHead">
+                        <a href="./Albums_Vulture1.html"><img src="../../Images/Vulture1.png" alt="Vulture 1" class="AlbumsCover"></a>
+                        <a href="./Albums_Vulture2.html"><img src="../../Images/Vulture2.png" alt="Vulture 2" class="AlbumsCover"></a>
+                        <img src="../../Images/ArrowHead.png" alt="" class="ArrowHead" />
+                    </div>
+                </div>
+            </div>
+            <div class="Footer">
+                <h3> If YE has a million fans, then I am one of them. 
+                    If YE has ten fans, then I am one of them. 
+                    If YE has only one fan then that is me. If YE has no fans, then that means I am no longer on earth. 
+                    If the world is against YE, then I am against the world.
+                </h3>
+                <h3>Presented by <br>
+                    Klapajon Noraphat 24229549
+                </h3>
+            </div>
+        </div>
+    </div>
+<script>
+  function randomAlbum() {
+    const albums = [
+      { name: "The College Dropout (2004)", url: "./Albums_CollegeDropOut.html" },
+      { name: "Late Registration (2005)", url: "./Albums_LateRegistration.html" },
+      { name: "Graduation (2007)", url: "./Albums_Graduation.html" },
+      { name: "808s & Heartbreak (2008)", url: "./Albums_808s&Heartbreak.html" },
+      { name: "My Beautiful Dark Twisted Fantasy (2010)", url: "./Albums_MBDTF.html" },
+      { name: "Watch the Throne (2011)", url: "./Albums_WatchTheThrone.html" },
+      { name: "Yeezus (2013)", url: "./Albums_YEEZUS.html" },
+      { name: "The Life of Pablo (2016)", url: "./Albums_LifeOfPablo.html" },
+      { name: "Ye (2018)", url: "./Albums_YE.html" },
+      { name: "Kids See Ghosts (2018)", url: "./Albums_KidsSeeGhost.html" },
+      { name: "Jesus Is King (2019)", url: "./Albums_JesusIsKing.html" },
+      { name: "Donda (2021)", url: "./Albums_Donda.html" },
+      { name: "Vultures 1 (2024)", url: "./Albums_Vulture1.html" },
+      { name: "Vultures 2 (2024)", url: "./Albums_Vulture2.html" }
+    ];
+
+    const randomIndex = Math.floor(Math.random() * albums.length);
+    const album = albums[randomIndex];
+
+    document.getElementById("albumResult").innerHTML =
+      `🎧 You got: <a href="${album.url}" target="_blank">${album.name}</a>`;
+  }
+</script>
+
+
+
+</body>
+</html>

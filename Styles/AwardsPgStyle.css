@@ -1,0 +1,241 @@
+.AwardPgTitle {
+    padding-bottom: 60px;
+}
+.AwardPgTitle h6 {
+    position: relative;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 128px;
+    font-weight: 700;
+    text-align: left;
+    color: #b3b3b3;
+    margin: 0%;
+    padding-left: 40px;
+    z-index: 2;
+}
+
+.AwardPgTitle img {
+    position: absolute;
+    width: 490px;
+    height: auto;
+    top: 186px;
+    left: -39px;
+    z-index: 1;
+}
+
+.AwardContentWithpic {
+    justify-content: space-between;
+    display: flex;
+    padding-left: 40px;
+    padding-bottom: 40px;
+}
+
+.AwardContentWithpic img {
+    width: 387px;
+    height: auto;
+    padding-right: 130px;
+}
+
+.AwardContentWithpic h6 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 32px;
+    text-align: left;
+    color: #b3b3b3;
+    margin: 0%;
+}
+
+.AwardContentWithpic h4 {
+    font-family: "Space Mono", monospace;
+    font-style: italic;
+    font-size: 16px;
+    color: #b3b3b3;
+    margin: 0%;
+}
+
+.AwardContentWithpic h5 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #757575; 
+    margin-bottom: 0%;
+}
+
+.AwardContentWithpic ul {
+    margin-top: 0%;
+}
+
+.AwardContentWithpic li {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #757575; 
+}
+
+.AwardContentsNOPIC {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #d9d9d9;
+    padding-left: 40px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.AwardContentsNOPIC h6 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 32px;
+    text-align: left;
+    color: #b3b3b3;
+    margin: 0%;
+}
+
+.AwardContentsNOPIC h4 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #757575;
+    margin: 0%;
+}
+
+.AwardContentsNOPIC h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    color: #757575;
+}
+
+.AwardContentsNOPIC li {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #757575;  
+}
+
+.AwardContentsNOPIC ul {
+    padding-inline-start: 30px;
+    margin: 0%;
+}
+
+.AwardContentsNOPIC ul :first-of-type {
+    margin: 0%;
+}
+
+@media screen and (max-width: 450px) {
+    .AwardPgTitle {
+    padding-bottom: 60px;
+}
+.AwardPgTitle h6 {
+    position: relative;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 60px;
+    font-weight: 700;
+    text-align: left;
+    color: #b3b3b3;
+    margin: 0%;
+    padding-left: 16px;
+    z-index: 2;
+}
+
+.AwardPgTitle img {
+    position: absolute;
+    width: 278px;
+    height: auto;
+    top: 172px;
+    left: -48px;
+    z-index: 1;
+}
+
+.AwardContentWithpic {
+    padding-left: 14px;
+    padding-bottom: 40px;
+    display: block;
+}
+
+.AwardContentWithpic img {
+    width: 387px;
+    height: auto;
+    padding-top: 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.AwardContentWithpic h6 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 29px;
+    text-align: left;
+    color: #b3b3b3;
+    margin: 0%;
+}
+
+.AwardContentWithpic h4 {
+    font-family: "Space Mono", monospace;
+    font-style: italic;
+    font-size: 16px;
+    color: #b3b3b3;
+    margin: 0%;
+}
+
+.AwardContentWithpic h5 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    color: #757575; 
+    margin-bottom: 0%;
+}
+
+.AwardContentWithpic ul {
+    margin-top: 0%;
+}
+
+.AwardContentWithpic li {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #757575; 
+}
+
+.AwardContentsNOPIC {
+    padding-left: 14px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.AwardContentsNOPIC h6 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+    text-align: left;
+    color: #b3b3b3;
+    margin: 0%;
+}
+
+.AwardContentsNOPIC h4 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #757575;
+    margin: 0%;
+}
+
+.AwardContentsNOPIC h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #757575;
+}
+
+.AwardContentsNOPIC li {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    color: #757575;  
+}
+
+.AwardContentsNOPIC ul {
+    padding-inline-start: 27px;
+    margin: 0%;
+}
+
+.AwardContentsNOPIC ul :first-of-type {
+    margin: 0%;
+}
+
+}
